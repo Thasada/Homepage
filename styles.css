@@ -1,0 +1,46 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+	background-color: #e39b00;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+/* Container styles */
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 100px;
+	background-color: #333;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Heading styles */
+h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/* Image styles */
+img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	border: 5px solid #fff;
+}
+
+/* Paragraph styles */
+p {
+	margin-bottom: 10px;
+	line-height: 1.5;
+	text-align: left;
+}
